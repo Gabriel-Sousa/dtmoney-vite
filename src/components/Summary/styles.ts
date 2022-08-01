@@ -7,6 +7,11 @@ export const Container = styled.div`
   flex-wrap: wrap;
   margin-top: -10rem;
 
+  @media(max-width: 1024px){
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
   div{
     background: var(--shape);
     padding: 1.5rem 2rem;
